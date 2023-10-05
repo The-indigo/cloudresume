@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after,
+** {
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+img {
+  width: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'GFS Neohellenic', sans-serif;
+    color: black;
+    background: linear-gradient(#ffeecf, #f2f0f0, #ffeecf);
+  }
+  .heading h1,h4{
+    margin-top: 0;
+    font-weight: bold;
+  }
+  .heading h2{
+    text-decoration: underline;
+  }
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .myjpg{
+    width: 20%;
+    margin: 0 auto;
+  }
+  .bio{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 2rem;
+  }
+  .hyperlinks{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .hyperlinks a{
+    text-decoration: underline;
+  }
