@@ -4,7 +4,7 @@ let apiUrl='https://6blyrzrhtc.execute-api.ca-central-1.amazonaws.com/dev/insert
 // Check if visited entry is present
 if (!visitCount) {
 localStorage.setItem("visited", 1);
-// The count value of the backend
+// The count value for the backend
 const data = {
     'count': 1,  
 };
