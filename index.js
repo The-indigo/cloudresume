@@ -1,5 +1,5 @@
 let visitCount = localStorage.getItem("visited");
-let apiUrl='https://6blyrzrhtc.execute-api.ca-central-1.amazonaws.com/dev/insertCount'
+let apiUrl='https://mhriq0m9i0.execute-api.ca-central-1.amazonaws.com/visitorCountApiGatewaystage/count'
 
 // Check if visited entry is present
 if (!visitCount) {
